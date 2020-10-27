@@ -1,2 +1,2 @@
-# Iotalab-
+# Iotalab
 Iotalab Education

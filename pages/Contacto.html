@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="../css/materialize.min.css"  media="screen,projection"/>
+  <link rel="stylesheet" href="../css/index.css">
+  <script type="text/javascript" src="../js/index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    $("body").hide().fadeIn(1000);
+    });      
+  </script>
+</head>
+<body class="index_body">
+
+  <nav class="nav-wrapper">
+    <div class="container">
+      <a href="../Index.html" class="brand-logo left"><img src="../assets/img/logo inicio.png"></a>
+      
+      <a href="#" data-target="slide-out" class="sidenav-trigger right" style="color:#440099;"><i class="material-icons">menu</i></a>
+      
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../Index.html" class="nav-enlace hideResponsiveMenu">Inicio</a></li>
+        <li><a href="../pages/Cursos.html" class="nav-enlace hideResponsiveMenu">Cursos</a></li>
+        <li><a href="../pages/Nosotros.html" class="nav-enlace hideResponsiveMenu">Nosotros</a></li>
+        <li><a href="../pages/Contacto.html" class="nav-enlace hideResponsiveMenu">Contacto</a></li>
+      </ul>
+    </div>
+    <ul class="sidenav" id="slide-out">
+      <li><a class="sidenav-close" href="#!" style="background-color: #a2a2a2;"><b>Cerrar (X)</b></a></li>
+      <li><a href="../Index.html" class="nav-enlace hideResponsiveMenu">Inicio</a></li>
+      <li><a href="../pages/Cursos.html" class="nav-enlace hideResponsiveMenu">Cursos</a></li>
+      <li><a href="../pages/Nosotros.html" class="nav-enlace hideResponsiveMenu">Nosotros</a></li>
+      <li><a href="../pages/Contacto.html" class="nav-enlace hideResponsiveMenu">Contacto</a></li>
+      
+    </ul>
+  </nav>
+           
+    
+              <div class="txt_body salto center-align">
+                <h1>Contacto</h1>
+                <p>¿Preguntas con respecto a nuestros cursos? </br>¡Escribenos y te contactaremos!</p>
+                <div class="section container">
+                  <div class="row">
+                    <form class="col s12">
+                      <div class="row card-panel">
+                        <div class="input-field col s12 m6">
+                          <input type="text" id="name" class="validate" required> 
+                          <label for="name">Nombre:</label>
+                        </div>
+
+                        <div class="input-field col s12 m6">
+                          <input type="text" id="last_name" class="validate" required> 
+                          <label for="last_name">Apellidos:</label>
+                        </div>
+
+                        <div class="input-field col s12 m6">
+                          <input type="email" placeholder="* Su correo es necesario para contactarlo" id="email" class="validate" required> 
+                          <label for="email">Email:</label>
+                          
+
+                        </div>
+
+                        <div class="input-field col s12 m6">
+                          <input type="text" placeholder="987654321" id="number"> 
+                          <label for="number">Número de contacto:</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                          <textarea id="message" class="materialize-textarea"></textarea>
+                          <label for="message">Mensaje:</label>
+                        </div>
+
+                        <button class="btn purple darken-4" type="submit">Enviar</button>
+
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
+
+
+
+              <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="../js/materialize.min.js"></script>
+    </body>
+
+    <!-- Footer -->
+    <footer class="page-footer main_footer">
+      <div class="container">
+          <div class="row">
+          <div class="col l6 s12">
+            <h5>Iota Lab SpA.</h5>
+            <p> <i class="material-icons icono">mail</i> contacto@iotalab.cl<br/>
+              <i class="material-icons icono">local_phone</i> +56 9 5555 555<br/>
+              <i class="material-icons icono">language</i> <a class=links href="https://www.iotalab.cl/">www.iotalab.cl</a>
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+              <h5>Siguenos en:</h5>
+              <ul>
+                <li><a class=links href="https://www.instagram.com/iota.lab/">Instagram</a></li>
+                <li><a class=links href="https://www.facebook.com/Iota-Lab-106145781073499/">Facebook</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+      <div class="footer-copyright">
+          <div class="container">
+            © 2020 Iota Lab SpA.
+          </div>
+      </div>
+  </footer>
+
+    </html>
